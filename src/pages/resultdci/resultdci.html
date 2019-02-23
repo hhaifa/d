@@ -1,0 +1,46 @@
+
+<ion-header>
+
+    <ion-navbar  color="secondary">
+      <ion-title> <p>{{docs.DCI}}</p></ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+   
+
+      <ion-row style="border-bottom: groove;"  *ngIf="docs">
+    <ion-col col-12>
+    <ion-label > <b>DCI:  </b>  {{docs.nomed}} <br></ion-label>
+  </ion-col>
+</ion-row>
+
+<ion-row style="border-bottom: groove;" >
+    <ion-col col-12>
+    <ion-label > <b>Code PCT:  </b>     {{docs.codepct}} <br></ion-label>
+  </ion-col>
+</ion-row>
+
+
+<ion-row style="border-bottom: groove;" >
+    <ion-col col-12>
+    <ion-label > <b>Cathegorie:  </b>     {{docs.cath}}<br> </ion-label>
+  </ion-col>
+</ion-row>
+
+<ion-row style="border-bottom: groove;" >
+    <ion-col col-12>
+    <ion-label > <b> Prix:      </b>  {{docs.prix}} <br> </ion-label>
+  </ion-col>
+</ion-row>
+
+<ion-row style="border-bottom: groove;" >
+    <ion-col col-12>
+    <ion-label >   
+        <b> Tarife    </b>  {{docs.tarif}} <br></ion-label>
+  </ion-col>
+</ion-row>
+  </ion-content>
+  
